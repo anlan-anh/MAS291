@@ -202,6 +202,14 @@
             transform: scale(1.05);
         }
 
+        .slide-number {
+            position: absolute;
+            bottom: 25px;
+            right: 40px;
+            font-size: 1.2em;
+            color: rgba(221, 221, 221, 0.7);
+        }
+
     </style>
 </head>
 <body>
@@ -224,6 +232,7 @@
                     Nguyễn Tấn Vinh
                 </p>
             </div>
+            <div class="slide-number">1 / 10</div>
         </div>
 
         <div class="slide" id="slide1">
@@ -237,6 +246,7 @@
                     <li>Interpret the results and their practical significance.</li>
                 </ul>
             </div>
+            <div class="slide-number">2 / 10</div>
         </div>
 
         <div class="slide" id="slide2">
@@ -254,6 +264,7 @@
                     If σ² is <strong>unknown</strong> → Use the <strong>t-distribution</strong>.
                 </div>
             </div>
+            <div class="slide-number">3 / 10</div>
         </div>
 
         <div class="slide" id="slide3">
@@ -274,6 +285,7 @@
                 </p>
                 <p><em>Rationale: The t-distribution accounts for the additional variability introduced by estimating σ with S.</em></p>
             </div>
+            <div class="slide-number">4 / 10</div>
         </div>
 
         <div class="slide" id="slide4">
@@ -290,6 +302,7 @@
                     <img src="hing.png" alt="Comparison of t-distribution and normal distribution curves. The t-distribution has heavier tails.">
                 </div>
             </div>
+            <div class="slide-number">5 / 10</div>
         </div>
 
         <div class="slide" id="slide5">
@@ -305,6 +318,7 @@
                 </div>
                 <p>Where $t_{\alpha/2, n-1}$ is the critical value from the t-distribution for a given confidence level ($1-\alpha$) and degrees of freedom ($n-1$).</p>
             </div>
+            <div class="slide-number">6 / 10</div>
         </div>
 
         <div class="slide" id="slide6">
@@ -326,6 +340,7 @@
                 <p><strong>Resulting Interval: [12.14, 15.28] MPa</strong></p>
                 <p><em>Interpretation: We are 95% confident that the true mean load at failure for this alloy is between 12.14 MPa and 15.28 MPa.</em></p>
             </div>
+            <div class="slide-number">7 / 10</div>
         </div>
 
         <div class="slide" id="slide7">
@@ -344,6 +359,7 @@
                     <li>Decrease the confidence level (e.g., from 99% to 95%).</li>
                 </ul>
             </div>
+            <div class="slide-number">8 / 10</div>
         </div>
 
         <div class="slide" id="slide8">
@@ -372,6 +388,7 @@
                 </table>
                 <p><strong>Rule of Thumb:</strong> For large samples (typically $n \ge 40$), the t-distribution closely approximates the Z-distribution, making the Z-interval a reasonable substitute.</p>
             </div>
+            <div class="slide-number">9 / 10</div>
         </div>
 
         <div class="slide" id="slide9">
@@ -379,7 +396,7 @@
                 <h2>Summary and Conclusion</h2>
                 <ul style="text-align: left; margin: 0 auto; display: inline-block;">
                     <li>When population variance (σ²) is unknown, use the <strong>t-distribution</strong> with <strong>n-1 degrees of freedom</strong>.</li>
-                    <li>The confidence interval formula is: 
+                    <li>The confidence interval formula is: 
                         <div class="formula-box" style="margin: 10px 0; font-size: 1.1em;">
                             $\bar{x} \pm t_{\alpha/2, n-1}\frac{s}{\sqrt{n}}$
                         </div>
@@ -395,6 +412,7 @@
                 </ul>
                  <a href="a.com" target="_blank" class="example-button">Examples</a>
             </div>
+            <div class="slide-number">10 / 10</div>
         </div>
 
     </div>
